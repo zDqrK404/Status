@@ -38,7 +38,7 @@ app.listen(port, () => {
 });
 
 const statusMessages = ["🎧 Listening to Nightmare City", "🎮 Playing Nightmare City", "🎥 Watching Nightmare City"];
-const statusTypes = [ 'dnd', 'idle', 'online'];
+const statusTypes = [ 'dnd', 'idle'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
 
